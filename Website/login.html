@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head >
+<style>
+.h
+{
+  color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+
+.btn {
+    border-radius: 25px;
+  background-color: #f43e1e;
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.btn:hover {opacity: 0.6;}
+
+.btn1 {
+  border-radius: 25px;
+  background-color: #eee;
+  border: none;
+  color: black;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background-color:blue;
+  color: white;
+}
+.s
+{
+  float:right;
+  width:400px;
+  
+  color: white;
+}
+fieldset
+{
+  border-radius: 25px;
+  border-color: white;
+  width: 200px;
+
+}
+.name
+{
+  font-family: arial;
+}
+
+.input
+{
+  border-radius: 10px;
+}
+
+.b
+{
+  background-image: url(h.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+</head>
+<body class="b">
+
+<h2><center><span  style="color:blue;font-weight:bold;">LOGIN FORM</span></center></h2>
+
+
+<center>
+<fieldset>
+
+<form class="s">
+    <center>
+
+    <div class="name"></div>
+Username:<br>
+<input type="text" class="input" placeholder=" Enter Username" name="Username"><br>
+<br>
+Password:<br>
+<input type="password" class="input" placeholder=" Enter Password" name="Password"><br>
+<br>
+
+<input type ="submit" class="btn" value="Login" href="login.html"><br><br>
+<span  style="color:blue;font-weight:bold;">Sign Up Using</span>
+<a href="http://www.facebook.com/"><img src="f.png" style="width:30px;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.gmail.com/"><img src="g.png" style="width:30px;height:30px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.twitter.com/"><img src="t.png" style="width:30px;height:30px;"></a>&nbsp;&nbsp;<br><br>
+<span  style="color:rgb(25, 0, 255);font-weight:bold;">Forgot Password?</span>
+<button type ="button" class="btn1" onclick ="location.href='forgotpassword.html';">ForgotPassword</button><br><br>
+<span  style="color:blue;font-weight:bold;">Don't have an account</span>
+<button type ="button" class="btn1" onclick ="location.href='registration.html';">SignUp</button>
+</center>
+</fieldset>
+</form>
+</body>
+</head>
+</html>
